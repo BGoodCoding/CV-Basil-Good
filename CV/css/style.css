@@ -1,0 +1,151 @@
+
+:root{
+
+    --ff-primary-100: 'PT Sans', Sans-serif;
+
+    --bg-clr-main: hsl(225, 7%, 78%);
+    --bg-clr-sidebar: hsl(222, 77%, 17%);
+    --bg-clr-others: hsl(124, 27%, 40%);
+
+    --clr-sidebar: rgb(201, 201, 201);
+    --clr-headings-3: rgb(114, 141, 216);
+
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: var(--ff-primary-100);
+    padding: 0 2.5rem;
+
+}
+
+h3{
+    color: var(--clr-headings-3);
+}
+
+/* Main Page Styling */
+
+.picture{
+    height: 35vh;
+    width: 24vh;
+    border-radius: 1rem;
+}
+
+.container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 1rem;
+
+    
+}
+
+@media (max-width:1278px){
+    .container{
+        display: grid;
+
+        grid-template-columns: 1fr;
+        padding-top: 1rem;
+    }
+}
+
+@media (min-width:1500px){
+    .container{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 2fr;
+        padding-top: 1rem;
+    }
+}
+
+.sidebar{
+    text-align: center;
+    padding: 2rem 2rem;
+    line-height: 1.5;
+
+    border-radius: 1rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.goodshots_button{
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: black;
+
+    background-color: rgb(200, 200, 200);
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0.25rem solid black;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem;
+
+}
+
+.fullpage_button{
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 0.7rem;
+
+    background-color: rgb(200, 200, 200);
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0.25rem solid black;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem;
+
+}
+
+
+
+
+.work_xp{
+    text-align: center;
+    line-height: 1.5;
+
+    border-radius: 1rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Footer Styling */
+
+.bottom_section{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.bottom_section h2{
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.personal_skills{
+ 
+    text-align: center;
+}
+
+.skill_list{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+
+    list-style-type: none;
+}
+

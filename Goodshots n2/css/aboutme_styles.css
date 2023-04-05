@@ -1,0 +1,43 @@
+
+
+
+.content{
+    margin-top: 3rem;
+}
+
+.main-grid{
+    display: grid;
+    margin: 6rem auto;
+    max-width: 80%;
+}
+
+.main-grid p,h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.second-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10rem auto;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.second-part img{
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.second-part p{
+    width: 80%;
+}
+
+footer{
+    margin-top: 10rem;
+}
