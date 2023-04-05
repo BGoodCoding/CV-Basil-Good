@@ -1,6 +1,6 @@
 # CV-Basil-Good
 
-This is my CV which contains my personal and professional information, including my education, work experience, skills, and achievements. Inside this CV you find all information about me and also two Photography Websites I designed.
+This is my CV which contains my personal and professional information, including my education, work experience and skills. Inside this CV you find all information about me and also two Photography Websites I designed.
 
 You also find those following folders:
 
