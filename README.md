@@ -6,7 +6,9 @@ You also find those following folders:
 
 CV:
   /CSS --> style.css wich contains all the styles for my CV
+  
   /img --> image I used for the CV
+  
   
 
 Goodshots_Frontpage:
