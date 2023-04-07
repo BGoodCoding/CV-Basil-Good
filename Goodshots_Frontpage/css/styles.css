@@ -92,6 +92,7 @@ body{
     
     background-image: url(../img/frontback.svg);
     background-size: cover;
+    background-position: center center;
     
     background-color: var(--bg-clr-100);
 }
