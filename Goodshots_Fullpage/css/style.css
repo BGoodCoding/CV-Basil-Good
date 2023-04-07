@@ -2,19 +2,6 @@
 :root{
 
     --ff-primary: font-family: 'Hanken Grotesk', sans-serif; font-family: 'Lora', serif; font-family: 'Michroma', sans-serif;
-    
-    --fs-primary-100: 
-    --fs-secondary-200
-    --fs-heading-1: 
-    --fs-heading-2:
-    --fs-heading-3:
-
-    --clr-primary:
-    --clr-secondary: 
-    
-    --bg-clr-primary:
-    --bg-clr-secondary: 
-    --bg-clr-additional: 
 }
 
 *,
@@ -234,6 +221,7 @@ footer{
     padding: 2rem  2rem;
     background-color: #454140;
     text-align: end;
+    color: white;
 
 }
 
