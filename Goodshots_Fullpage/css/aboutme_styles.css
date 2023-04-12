@@ -51,17 +51,20 @@
     
 }
 
+
+
 .aboutme_img{
+    width: 30rem;
+    height: auto;
     float: left;
-    margin: 3rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
     border-radius: 1.125rem;
+
+    max-width: 100%;
 }
 
-@media(min-width:700px){
-    .aboutme_img{
-        max-width: 80%;
-    }
-}
+
 
 /* Blog Section */
 
