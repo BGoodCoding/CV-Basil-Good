@@ -16,7 +16,7 @@ My personal goal is to dive deeper into the world of programming and to be on th
 
 ## Description of this Project
 
-After learning more and more about HTML&CSS, I decided to develop a personal CV and two additional photography websites. After opening the main.html file in the "CV Basil Good" folder you are able to access my CV and the other two websites. If you want to find out more about how I structured these webpages follow along and you'll find everything you need.
+After learning more and more about HTML&CSS, I decided to develop a personal CV and two additional photography websites. After opening the Open_ME.html file in the "CV Basil Good" folder you are able to access my CV and the other two websites. If you want to find out more about how I structured these webpages follow along and you'll find everything you need.
 
 ## Code
 
